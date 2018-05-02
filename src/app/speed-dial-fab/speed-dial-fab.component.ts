@@ -11,7 +11,7 @@ export class SpeedDialFabComponent implements OnInit {
 
   @Input() options;
   buttons = [];
-  animationState = 'inactive';
+  fabTogglerState = 'inactive';
 
   constructor() { }
 
@@ -23,12 +23,12 @@ export class SpeedDialFabComponent implements OnInit {
   }
 
   showItems() {
-    this.animationState = 'active';
+    this.fabTogglerState = 'active';
     this.buttons = this.options.buttons;
   }
 
   hideItems() {
-    this.animationState = 'inactive';
+    this.fabTogglerState = 'inactive';
     this.buttons = [];
   }
 

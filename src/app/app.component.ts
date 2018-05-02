@@ -10,22 +10,19 @@ export class AppComponent {
   FabOptions = {
     buttons: [
       {
-        icon: 'add'
+        icon: 'timeline'
       },
       {
-        icon: 'add'
+        icon: 'view_headline'
       },
       {
-        icon: 'add'
+        icon: 'room'
       },
       {
-        icon: 'add'
+        icon: 'lightbulb_outline'
       },
       {
-        icon: 'add'
-      },
-      {
-        icon: 'add'
+        icon: 'lock'
       }
     ]
   };
